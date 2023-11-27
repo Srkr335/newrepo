@@ -123,4 +123,5 @@ urn `<button data-id="${row.id}" class="btn btn-primary">Edit</button>`;
         });
     </script>
 </body>
+
 </html>

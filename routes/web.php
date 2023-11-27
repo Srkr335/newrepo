@@ -22,8 +22,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-//Route::get('/forgot-password', [App\Http\Controllers\Auth\ForgotPasswordController::class, 'index'])->name('forgot.password');
-//Route::post('/do-forgot-password', [App\Http\Controllers\Auth\ForgotPasswordController::class, 'Forgot'])->name('do.forgot.password');
+Route::get('/forgot-password', [App\Http\Controllers\Auth\ForgotPasswordController::class, 'index'])->name('forgot.password');
+Route::POST('/do-forgot-password', [App\Http\Controllers\Auth\ForgotPasswordController::class, 'Forgot'])->name('do.forgot.password');
 
 
 
