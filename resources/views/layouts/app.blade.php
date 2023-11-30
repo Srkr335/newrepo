@@ -97,27 +97,8 @@
                     { data: 'course', name: 'course' },
                     { data: 'section', name: 'section' },
                     { data: 'email', name: 'email' },
-                    //{ data: 'status', name: 'status' },
+                    { data: 'status', name: 'status' },
 
-                    {
-                        "data": null,
-                        render: function(data, row, type) {
-                            console.log("Status from server:", row.status);
-
-                            if (row.status == "active") {
-                                return `<button class="btn btn-success">Active</button>`;
-                            } else {
-                                return `<button class="btn btn-danger">Inactive</button>`;
-                            }
-                        }
-                    },
-                    {
-                        "data": null,
-                        render: function(data, row, type) {
-                            retgit add .
-urn `<button data-id="${row.id}" class="btn btn-primary">Edit</button>`;
-                        }
-                    },
                 ]
             });
         });

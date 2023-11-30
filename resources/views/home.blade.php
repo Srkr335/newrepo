@@ -33,8 +33,7 @@
                             <th>SECTION</th>
                             <th>EMAIL</th>
                             <th>STATUS</th>
-                            <th>ACTION</th>
-                            <th></th>
+                          
                         </tr>
                     </thead>
                     <tbody></tbody>
